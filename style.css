@@ -1,0 +1,105 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing:border-box;
+}
+
+
+body{
+    background-color:#f9f4ef;
+}
+
+.section-about{
+    background-color: #eaddcf;
+}
+header{
+   height: 160px;
+   margin-top: 50px;
+    text-align: center;
+}
+.header-title{
+    color: #020826;
+    border-bottom: 1px solid #716040;
+    display: inline-block;
+    font-size:64px;
+    margin-bottom:5px;
+}
+header p{
+  color: #716040;
+  font-size: 33px;
+
+}
+
+.section-about{
+    text-align: center;
+height: 950px;
+}
+
+img{
+    border:1px solid black;
+    border-radius: 5px;
+   width: 1200px;
+   margin-top: 100px;
+}
+.section-sub{
+    color: #716040;
+    margin-top: 20px;
+    font-size: 22px;
+}
+
+.section-subb{
+    color: #716040;
+ 
+    font-size: 22px;
+}
+
+.section-about-life {
+    max-width: 700px;
+    margin: auto;
+ 
+}
+.section-about-life-header{
+    text-align: center;
+    color: #020826;
+    font-size: 27px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+.list>li{
+    color:#716040;
+    font-size: 20px;
+    margin-bottom: 17px;
+}
+li::marker {
+    color:#716040;
+  }
+
+  li>span{
+    font-weight: bold;
+  }
+.section-about-life-sub{
+    color: #716040;
+}
+  .section-about-sub-description{
+    color: #716040;
+    text-align: center;
+    font-style: italic;
+  }
+
+  footer{
+    background-color: #eaddcf;
+    color: #716040;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+  }
+  a:link{
+   color:red;
+
+}
+a:hover{
+    color: red;
+}
+a:visited{
+  color: red;
+}
